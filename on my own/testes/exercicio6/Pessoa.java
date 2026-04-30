@@ -3,10 +3,10 @@ package exercicio6;
 public class Pessoa {
     private String nome;
     private int idade;
-    
+
     public Pessoa(String nome) {
         this.nome = nome;
-    } 
+    }
 
     public Pessoa(String nome, int idade) {
         this.nome = nome;
@@ -34,3 +34,5 @@ public class Pessoa {
     }
 
 }
+// Classe comum de pessoa, com somente para declarar nome e idade e mostrar o
+// resultado

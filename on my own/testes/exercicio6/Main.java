@@ -11,7 +11,7 @@ public class Main {
         alunos.add(new Aluno("Thiago", 0.5));
         alunos.add(new Aluno("Mariana", 9.1));
         alunos.add(new Aluno("Lucas", 4.6));
-        
+
         double soma = 0;
         for (Aluno a : alunos) {
             soma += a.getNota();
@@ -28,3 +28,4 @@ public class Main {
         }
     }
 }
+// utilizar size() caso adicione ou remova um aluno, não dar erro na média

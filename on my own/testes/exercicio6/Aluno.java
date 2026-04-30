@@ -18,3 +18,4 @@ public class Aluno extends Pessoa {
     }
 
 }
+// Classe Aluno, que herda da pessoa, somente com adição da nota
